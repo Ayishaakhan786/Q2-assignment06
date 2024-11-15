@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Image from "next/image";
 import Logo from "./logo2.jpg";
 export default function Header (){

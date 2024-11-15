@@ -1,6 +1,5 @@
 "use client"
 import { useState , useEffect } from "react"
-import { json } from "stream/consumers";
 export default function MarketRates (){
     const API_KEY = "c541f3fbfc6be2b2c41c5f43cb67cae0";
     const [data , setData] = useState<any>(null);
